@@ -37,6 +37,7 @@ Due to GitHub's file size limits (100MB), the following large files are **NOT in
    pip install pandas numpy scikit-learn tensorflow torch transformers matplotlib tqdm
 
 SVM:
+
 <img width="719" height="504" alt="image" src="https://github.com/user-attachments/assets/73dc3d7e-ffde-4416-adda-e38f3146608f" />
 <img width="638" height="579" alt="image" src="https://github.com/user-attachments/assets/cc3592b5-0e74-4c93-8ef6-bf286ab8ed31" />
 
