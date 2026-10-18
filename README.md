@@ -35,3 +35,5 @@ Due to GitHub's file size limits (100MB), the following large files are **NOT in
 1. Install the required dependencies:
    ```bash
    pip install pandas numpy scikit-learn tensorflow torch transformers matplotlib tqdm
+
+<img width="683" height="492" alt="image" src="https://github.com/user-attachments/assets/6f03b1a0-6466-426b-afd5-798326ca467f" />
