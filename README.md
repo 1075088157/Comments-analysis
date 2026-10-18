@@ -32,9 +32,23 @@ Due to GitHub's file size limits (100MB), the following large files are **NOT in
 3. The `bert/pytorch_model.bin` can be automatically downloaded by Hugging Face Transformers, or you can place the weights in the `bert/` folder manually.
 
 ## 🚀 How to Run
-1. Install the required dependencies:
-   ```bash
-   pip install pandas numpy scikit-learn tensorflow torch transformers matplotlib tqdm
+
+Because the raw dataset and pre-generated feature files are excluded due to file size limits, you need to reproduce the data first before training the models. 
+
+1. **Prepare the Data:** Place your own `imdb_sup.csv` in the project root directory.
+2. **Open Jupyter:** Open the notebooks in Jupyter (e.g., run `jupyter notebook` in your terminal).
+3. **Run in this exact order:**
+   - `1. SVM Text Representation Generation.ipynb` (Generates TF-IDF features)
+   - `2. SVM.IPYNB` (Trains the SVM model)
+   - `3. Bert Text Representation Generation.ipynb` (Generates BERT embeddings)
+   - `4. LSTM.IPYNB` (Trains the LSTM model)
+   - `5. comments_analysis.ipynb` (Final comprehensive analysis and comparison)
+
+*(Note: The BERT model weights will be automatically downloaded by the `transformers` library if they are not found locally.)*
+
+
+
+
 
 SVM:
 
